@@ -1,6 +1,6 @@
 name: "Changedetection.io"
 version: "1"
-slug: folder
+slug: changedetection
 description: >-
   "Home Assistant Add-on for running Changedetection.io"
 arch:
