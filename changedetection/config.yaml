@@ -10,5 +10,4 @@ ports:
   5000/tcp: 5000
 map:
   - datastore:rw
-image: ghcr.io/dgtlmoon/changedetection.io
 webui: "http://[HOST]:[PORT:5000]"
