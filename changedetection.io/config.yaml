@@ -1,0 +1,14 @@
+name: "Changedetection.io"
+version: "1"
+slug: folder
+description: >-
+  "Home Assistant Add-on for running Changedetection.io"
+arch:
+  - amd64
+url: "website with more information about the add-on (e.g., a forum thread for support)"
+ports:
+  5000/tcp: 5000
+map:
+  - datastore:rw
+image: ghcr.io/dgtlmoon/changedetection.io
+webui: "http://[HOST]:[PORT:5000]"
